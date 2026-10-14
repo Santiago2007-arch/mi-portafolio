@@ -1,25 +1,33 @@
-Mi portafolio
+# Mi portafolio
 
-Este proyecto es mi portafolio personal, desarrollado durante mi formación en Análisis y Desarrollo de Software (ADSO).
+Este es mi portafolio personal, creado durante mi formación en Análisis y Desarrollo de Software (ADSO) en el SENA.
 
-Sobre mí
+## Sobre mí
 
-Estoy aprendiendo programación y desarrollo web. Me interesa mejorar mis habilidades y crear proyectos.
+Soy aprendiz de desarrollo de software y estoy aprendiendo a crear páginas web y programas. Me gusta la tecnología y mejorar mis habilidades de programación.
 
-Proyectos
+## Mis proyectos
 
-Página web personal.
+- Página web personal.
+- Ejercicios de programación.
+- Proyecto de catálogo de productos con HTML, CSS y JavaScript.
 
-Ejercicios de programación.
+## Tecnologías utilizadas
 
-Proyectos de desarrollo web con HTML, CSS y JavaScript.
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
 
-Tecnologías
+## Enlace a mi perfil
 
-HTML
+Puedes visitar mi perfil de GitHub aquí: [Mi perfil de GitHub](https://github.com/Santiago2007-arch).
 
-CSS
+## Ejemplo de código
 
-JavaScript
+Este es un ejemplo sencillo de JavaScript:
 
-Git y GitHub
+```javascript
+console.log("Hola, mundo");
+```
