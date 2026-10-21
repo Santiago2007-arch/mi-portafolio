@@ -1,22 +1,30 @@
 ---
 name: Reporte de bug
-about: Informa sobre un error o algo que no funciona correctamente en el portafolio
+about: Informa sobre un error o fallo en el funcionamiento del portafolio.
 title: "BUG · "
 labels: bug
 assignees: ''
 ---
 
-## Descripción del bug
-Describe aquí de forma clara y concisa en qué consiste el error encontrado.
+## Descripción del problema
 
-## Pasos para reproducirlo
-Escribe los pasos numerados que se deben seguir para volver a ver el error en el navegador.
-1. Ir a...
-2. Hacer clic en...
-3. El error aparece al...
+Escribe una descripción clara y detallada del error que estás experimentando en el sitio.
 
-## Comportamiento esperado
-Explica qué es lo que debería pasar en el navegador si todo funcionara de forma correcta.
+## Pasos para reproducir
 
-## Capturas de pantalla
-Si es posible, arrastra o pega aquí una imagen o captura de pantalla donde se visualice claramente el problema.
+1. Ingresa a la página principal del portafolio.
+2. Navega hasta la sección o haz clic en el elemento afectado.
+3. Observa el comportamiento anómalo que se presenta.
+
+## Resultado esperado
+
+Explica cómo debería funcionar o verse esta sección si no hubiera ningún error.
+
+## Resultado actual
+
+Describe detalladamente qué está fallando o qué se muestra de forma incorrecta en este momento.
+
+## Evidencia (captura o enlace)
+
+Adjunta una captura de pantalla, un gif o un enlace que demuestre de forma visual el problema.
+
