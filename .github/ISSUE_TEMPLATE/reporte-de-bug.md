@@ -1,37 +1,22 @@
 ---
 name: Reporte de bug
-about: TODO - escribe en una frase para qué sirve esta plantilla
+about: Informa sobre un error o algo que no funciona correctamente en el portafolio
 title: "BUG · "
-labels: TODO
+labels: bug
 assignees: ''
 ---
 
-<!--
-  TODO (Parte A, paso 3): completa esta plantilla.
-  1. En el encabezado de arriba cambia los dos TODO:
-     - about: una frase que explique para qué sirve la plantilla.
-     - labels: la etiqueta que deben llevar los reportes de error.
-  2. Debajo de cada título (##) escribe una instrucción corta
-     que le diga a quien reporta qué debe escribir ahí.
-  3. Borra este comentario cuando termines.
--->
+## Descripción del bug
+Describe aquí de forma clara y concisa en qué consiste el error encontrado.
 
-## Descripción del problema
+## Pasos para reproducirlo
+Escribe los pasos numerados que se deben seguir para volver a ver el error en el navegador.
+1. Ir a...
+2. Hacer clic en...
+3. El error aparece al...
 
-TODO
+## Comportamiento esperado
+Explica qué es lo que debería pasar en el navegador si todo funcionara de forma correcta.
 
-## Pasos para reproducir
-
-1. TODO
-
-## Resultado esperado
-
-TODO
-
-## Resultado actual
-
-TODO
-
-## Evidencia (captura o enlace)
-
-TODO
+## Capturas de pantalla
+Si es posible, arrastra o pega aquí una imagen o captura de pantalla donde se visualice claramente el problema.
