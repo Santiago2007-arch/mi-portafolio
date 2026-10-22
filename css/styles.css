@@ -10,26 +10,109 @@
   --acento: #f05032; /* naranja Git */
   --verde: #39d353;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: system-ui, Arial, sans-serif; background: var(--fondo); color: var(--texto); line-height: 1.6; }
-a { color: var(--acento); }
-.hero { min-height: 60vh; padding: 1.5rem 8%; display: flex; flex-direction: column; }
-.nav { display: flex; justify-content: space-between; align-items: center; }
-.nav ul { display: flex; gap: 1.5rem; list-style: none; }
-.nav a { color: var(--texto); text-decoration: none; }
-.nav a:hover { color: var(--acento); }
-.logo { font-family: monospace; font-weight: bold; color: var(--verde); }
-.hero-texto { margin: auto 0; }
-.saludo { color: var(--suave); }
-.hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); }
-.rol { color: var(--acento); font-weight: 600; }
-.seccion { padding: 3rem 8%; }
-.seccion h2 { margin-bottom: 1rem; }
-.seccion h2::before { content: "● "; color: var(--verde); }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
-.tarjeta { background: var(--tarjeta); padding: 1.25rem; border-radius: 12px; }
-.tarjeta h3 { margin-bottom: .5rem; }
-.etiquetas { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; margin-top: .75rem; }
-.etiquetas li { font-size: .8rem; padding: .15rem .6rem; border-radius: 999px; background: rgba(240, 80, 50, .15); color: var(--acento); }
-.contacto { list-style: none; }
-.footer { text-align: center; padding: 2rem; color: var(--suave); font-size: .9rem; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  line-height: 1.6;
+}
+a {
+  color: var(--acento);
+}
+.hero {
+  min-height: 60vh;
+  padding: 1.5rem 8%;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--fondo);
+  padding: 1rem 8%;
+}
+.nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.nav a {
+  color: var(--texto);
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--acento);
+}
+.logo {
+  font-family: monospace;
+  font-weight: bold;
+  color: var(--verde);
+}
+.hero-texto {
+  margin: auto 0;
+}
+.saludo {
+  color: var(--suave);
+}
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+}
+.rol {
+  color: var(--acento);
+  font-weight: 600;
+}
+.seccion {
+  padding: 3rem 8%;
+}
+.seccion h2 {
+  margin-bottom: 1rem;
+}
+.seccion h2::before {
+  content: "● ";
+  color: var(--verde);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+.tarjeta {
+  background: var(--tarjeta);
+  padding: 1.25rem;
+  border-radius: 12px;
+}
+.tarjeta h3 {
+  margin-bottom: 0.5rem;
+}
+.etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 0.75rem;
+}
+.etiquetas li {
+  font-size: 0.8rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(240, 80, 50, 0.15);
+  color: var(--acento);
+}
+.contacto {
+  list-style: none;
+}
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--suave);
+  font-size: 0.9rem;
+}
