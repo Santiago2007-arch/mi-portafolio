@@ -13,7 +13,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 ---
 
-## HU-01 · Menú de navegación fijo  ✅ (ejemplo resuelto)
+## HU-01 · Menú de navegación fijo ✅ (ejemplo resuelto)
 
 **Historia:** Como visitante del portafolio, quiero un menú fijo en la parte superior, para ir a cualquier sección sin hacer scroll.
 
@@ -29,7 +29,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 ---
 
-## HU-02 · Sección de habilidades  ✅ (ejemplo resuelto)
+## HU-02 · Sección de habilidades ✅ (ejemplo resuelto)
 
 **Historia:** Como reclutador, quiero ver las habilidades técnicas del aprendiz en una lista, para evaluar rápidamente si su perfil encaja con la vacante.
 
@@ -53,8 +53,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces -->
-- [ ] TODO
+- [ ] Dado que estoy en la parte inferior del portafolio, cuando miro el pie de página, entonces veo el año actual y el nombre del aprendiz.
+- [ ] Dado que reviso el pie de página, cuando veo los enlaces, entonces encuentro las redes sociales del aprendiz.
+- [ ] Dado que hago clic en un enlace de una red social, cuando se abre la página, entonces puedo visitar el perfil correspondiente.
 
 **Issue:** #
 
@@ -68,9 +69,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿el enlace abre en una pestaña nueva? ¿Qué texto muestra? -->
-- [ ] TODO
+- [ ] Dado que estoy en la sección de proyectos, cuando reviso una tarjeta, entonces veo un enlace al repositorio en GitHub.
+- [ ] Dado que veo el enlace al repositorio, cuando leo su texto, entonces encuentro las palabras "Ver código".
+- [ ] Dado que hago clic en "Ver código", cuando se abre el enlace, entonces el repositorio aparece en una pestaña nueva.
 
 **Issue:** #
 
@@ -84,9 +85,9 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿qué pasa con las 3 tarjetas en una pantalla de menos de 600 px? -->
-- [ ] TODO
+- [ ] Dado que abro el portafolio en una pantalla menor de 600 píxeles, cuando veo las tarjetas de proyectos, entonces aparecen una debajo de otra.
+- [ ] Dado que abro el portafolio desde un celular, cuando leo el contenido, entonces puedo hacerlo sin necesidad de hacer zoom.
+- [ ] Dado que navego por el portafolio en una pantalla pequeña, cuando recorro la página, entonces no aparece desplazamiento horizontal.
 
 **Issue:** #
 
